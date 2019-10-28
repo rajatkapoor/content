@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "apks": "cd android && ./gradlew assembleRelease",
+    "bundle": "cd android && ./gradlew bundleRelease"
   },
   "dependencies": {
     "react": "16.9.0",
